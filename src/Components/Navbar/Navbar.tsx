@@ -5,7 +5,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   return (
-    <div className="fixed bg-mainLightGray w-full flex justify-between h-[10%] items-center text-gray-300 ">
+    <div className="fixed bg-mainLightGray w-full flex justify-between h-[10vh] items-center text-gray-300 ">
       <img src={logo} alt="Initials Logo" className=" ml-5 w-[5rem]" />
       <ul className="flex w-[40%] justify-evenly font-bold text-[1.2rem]">
         <li>
