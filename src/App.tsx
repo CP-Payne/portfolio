@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="w-full pt-[10v]">
+      <main className="w-full pt-[10vh]">
         <Home />
       </main>
     </>
