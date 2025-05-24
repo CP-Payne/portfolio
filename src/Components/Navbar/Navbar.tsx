@@ -9,7 +9,7 @@ const Navbar = (props: Props) => {
       <img src={logo} alt="Initials Logo" className=" ml-5 w-[5rem]" />
       <ul className="flex w-[40%] justify-evenly font-bold text-[1.2rem]">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#">About</a>
