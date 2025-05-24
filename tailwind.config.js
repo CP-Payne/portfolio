@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        raleway: ['Raleway', 'sans-serif']
+      },
       colors: {
         mainDarkGray: "#111111",
         mainLightGray: "#212121",
