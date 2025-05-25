@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="w-full pt-[10vh]">
+      <main className="w-full pt-[10vh] bg-mainLightGray">
         <Home />
         <About />
         <Skills />
