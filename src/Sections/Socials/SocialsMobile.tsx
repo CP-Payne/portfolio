@@ -2,6 +2,7 @@ import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import socials from "../../data/socials";
 
 type Props = {};
 
@@ -11,7 +12,7 @@ const SocialsMobile = (props: Props) => {
       <div className=" max-w-2xl w-full h-full flex justify-evenly items-center p-3 font-bold">
         <div className="p-2 shadow-lg shadow-[#040c16] bg-blue-600  w-[20vw] h-[20vw] max-w-20 max-h-20 min-w-14 min-h-14 text-sm sm:text-base text-gray-300">
           <a
-            href="https://www.linkedin.com/in/charles-payne-51b533226"
+            href={socials.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center gap-1 h-full w-full"
@@ -21,7 +22,7 @@ const SocialsMobile = (props: Props) => {
         </div>
         <div className="p-2 shadow-lg shadow-[#040c16] bg-[#333333] w-[20vw] h-[20vw] max-w-20 max-h-20 min-w-14 min-h-14 text-sm sm:text-base text-gray-300">
           <a
-            href="https://www.github.com/CP-Payne/"
+            href={socials.github}
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center gap-1 h-full w-full"
@@ -31,7 +32,7 @@ const SocialsMobile = (props: Props) => {
         </div>
         <div className="p-2 shadow-lg shadow-[#040c16] bg-[#6fc2b0] w-[20vw] h-[20vw] max-w-20 max-h-20 min-w-14 min-h-14 text-sm sm:text-base text-white">
           <a
-            href="mailto:charlpayne1@gmail.com"
+            href={`mailto:${socials.email}`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center gap-1 h-full w-full"
@@ -41,7 +42,7 @@ const SocialsMobile = (props: Props) => {
         </div>
         <div className="p-2 shadow-lg shadow-[#040c16] bg-[#565f69] w-[20vw] h-[20vw] max-w-20 max-h-20 min-w-14 min-h-14 text-sm sm:text-base text-gray-300">
           <a
-            href="/portfolio-website/files/Charles_Payne_CV.pdf"
+            href={socials.cvLink}
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center justify-center gap-1 h-full w-full"
