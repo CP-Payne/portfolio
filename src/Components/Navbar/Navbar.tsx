@@ -35,10 +35,33 @@ const Navbar = (props: Props) => {
         </li>
       </ul>
       {/* Hamburger Menu Icon */}
-      <div className="md:hidden mr-6  mt-5" onClick={handleClick}>
+      <div className="md:hidden mr-6 mt-5 z-10" onClick={handleClick}>
         {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
       </div>
       {/* Mobile Menu */}
+      <ul
+        className={
+          !nav
+            ? "hidden"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-mainLightGray"
+        }
+      >
+        <li onClick={handleClick} className="py-6 text-4xl">
+          <a href="#home">Home</a>
+        </li>
+        <li onClick={handleClick} className="py-6 text-4xl">
+          <a href="#about">About</a>
+        </li>
+        <li onClick={handleClick} className="py-6 text-4xl">
+          <a href="#skills">Skills</a>
+        </li>
+        <li onClick={handleClick} className="py-6 text-4xl">
+          <a href="#projects">Projects</a>
+        </li>
+        <li onClick={handleClick} className="py-6 text-4xl">
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
   );
 };
