@@ -27,14 +27,15 @@ const Home = (props: Props) => {
           over a year of experience in cybersecurity as a penetration tester.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 hover:bg-mainGoldColor hover:border-mainGoldColor flex">
-            <Link to="skills" smooth={true} duration={500}>
-              View Work
-            </Link>
+          <a
+            href="#projects"
+            className="text-white group border-2 px-6 py-3 my-2 hover:bg-mainGoldColor hover:border-mainGoldColor inline-flex"
+          >
+            View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3 mt-1" />
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </section>
