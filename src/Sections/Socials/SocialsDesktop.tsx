@@ -7,7 +7,7 @@ type Props = {};
 
 const SocialsDesktop = (props: Props) => {
   return (
-    <section className="hidden md:flex flex-col left-0 top-[35%] fixed">
+    <section className="hidden lg:flex flex-col left-0 top-[35%] fixed">
       <div className="p-4 shadow-lg shadow-[#040c16] bg-blue-600  w-36 h-14 text-gray-300 ml-[-60%] hover:ml-0 duration-500">
         <a
           href="https://www.linkedin.com/in/charles-payne-51b533226"

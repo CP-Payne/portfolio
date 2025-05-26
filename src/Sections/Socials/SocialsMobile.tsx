@@ -7,7 +7,7 @@ type Props = {};
 
 const SocialsMobile = (props: Props) => {
   return (
-    <section className=" min-h-[15vh] w-full  bg-mainLightGray flex justify-center items-center overflow-hidden md:hidden">
+    <section className=" min-h-[15vh] w-full  bg-mainLightGray flex justify-center items-center overflow-hidden lg:hidden">
       <div className=" max-w-2xl w-full h-full flex justify-evenly items-center p-3 font-bold">
         <div className="p-2 shadow-lg shadow-[#040c16] bg-blue-600  w-[20vw] h-[20vw] max-w-20 max-h-20 min-w-14 min-h-14 text-sm sm:text-base text-gray-300">
           <a
