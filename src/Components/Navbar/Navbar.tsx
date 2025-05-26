@@ -11,7 +11,7 @@ const Navbar = (props: Props) => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed bg-mainLightGray w-full flex justify-between h-[10vh] items-center text-gray-300 ">
+    <div className="fixed bg-mainLightGray w-full flex justify-between h-[10vh] items-center text-gray-300 pb-10 pt-5">
       <img
         src={logo}
         alt="Initials Logo"
@@ -79,8 +79,8 @@ const Navbar = (props: Props) => {
         </li>
       </ul>
       {/* Hamburger Menu Icon */}
-      <div className="md:hidden mr-6" onClick={handleClick}>
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div className="md:hidden mr-6  mt-5" onClick={handleClick}>
+        {!nav ? <FaBars size={25} /> : <FaTimes size={25} />}
       </div>
       {/* Mobile Menu */}
     </div>
