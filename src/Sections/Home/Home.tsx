@@ -12,7 +12,7 @@ const Home = (props: Props) => {
     // This is because the h-[90vh] forces the section to be exactly 90% of the viewport hight. min-h-[90vh] causes justify-center to no longer center the content vertically as the height can grow, therefore, it aligns at the top
     <section
       id="home"
-      className="bg-mainLightGray w-full min-h-[90vh] flex items-center pt-28 lg:pt-0 snap-center"
+      className="bg-mainLightGray w-full min-h-[90vh] flex items-center pt-28 lg:pt-0 lg:snap-center"
     >
       <div className="max-w-5xl mx-auto h-full flex flex-col px-8">
         <p className="text-mainGoldColor">Hi, my name is</p>

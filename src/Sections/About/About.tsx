@@ -7,7 +7,7 @@ const About = (props: Props) => {
   return (
     <section
       id="about"
-      className="w-full  min-h-[90vh] text-gray-300 bg-mainLightGray flex items-center  pt-28 lg:pt-0 snap-center"
+      className="w-full  min-h-[90vh] text-gray-300 bg-mainLightGray flex items-center  pt-28 lg:pt-0 lg:snap-center"
     >
       <div className="max-w-5xl mx-auto h-full flex flex-col items-center px-6">
         <h1 className="text-4xl font-bold border-b-4 border-mainGoldColor">
