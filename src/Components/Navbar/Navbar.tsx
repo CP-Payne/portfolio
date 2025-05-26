@@ -19,34 +19,63 @@ const Navbar = (props: Props) => {
       />
       <ul className=" hidden md:flex flex-wrap justify-center gap-9 font-bold text-[1.2rem] mt-6 lg:mt-0 mr-12">
         <li>
-          <Link to="home" smooth={true} duration={500} offset={scrollOffset}>
+          {/* <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            offset={scrollOffset}
+            containerId="scroll-container"
+          >
             Home
-          </Link>
+          </Link> */}
+          <a href="#home">Home</a>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500} offset={scrollOffset}>
+          {/* <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            offset={scrollOffset}
+            containerId="scroll-container"
+          >
             About
-          </Link>
+          </Link> */}
+          <a href="#about">About</a>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} offset={scrollOffset}>
+          {/* <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            offset={scrollOffset}
+            containerId="scroll-container"
+          >
             Skills
-          </Link>
+          </Link> */}
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <Link
+          {/* <Link
             to="projects"
             smooth={true}
             duration={500}
             offset={scrollOffset}
+            containerId="scroll-container"
           >
             Projects
-          </Link>
+          </Link> */}
+          <a href="#projects">Projects</a>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          {/* <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            containerId="scroll-container"
+          >
             Contact
-          </Link>
+          </Link> */}
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       {/* Hamburger Menu Icon */}

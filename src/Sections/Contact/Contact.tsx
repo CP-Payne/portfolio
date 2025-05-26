@@ -6,7 +6,7 @@ const Contact = (props: Props) => {
   return (
     <section
       id="contact"
-      className="bg-mainLightGray min-h-[90vh] w-full text-gray-300 flex justify-center items-center pt-28 lg:pt-0"
+      className="bg-mainLightGray min-h-[90vh] w-full text-gray-300 flex justify-center items-center pt-28 lg:pt-0 snap-center"
     >
       <div className=" max-w-2xl mx-auto flex flex-col w-full gap-9 p-4 pb-0">
         <div className="flex flex-col gap-3">
