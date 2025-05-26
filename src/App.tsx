@@ -4,6 +4,8 @@ import Contact from "./Sections/Contact/Contact";
 import Home from "./Sections/Home/Home";
 import Projects from "./Sections/Projects/Projects";
 import Skills from "./Sections/Skills/Skills";
+import SocialsDesktop from "./Sections/Socials/SocialsDesktop";
+import SocialsMobile from "./Sections/Socials/SocialsMobile";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Skills />
         <Projects />
         <Contact />
+        <SocialsDesktop />
+        <SocialsMobile />
       </main>
     </>
   );
