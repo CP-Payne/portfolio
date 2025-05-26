@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import logo from "./initials_logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 type Props = {};
+
+const scrollOffset = -60;
 
 const Navbar = (props: Props) => {
   const [nav, setNav] = useState(false);
@@ -16,19 +19,34 @@ const Navbar = (props: Props) => {
       />
       <ul className=" hidden md:flex flex-wrap justify-center gap-9 font-bold text-[1.2rem] mt-6 lg:mt-0 mr-12">
         <li>
-          <a href="#home">Home</a>
+          <Link to="home" smooth={true} duration={500} offset={scrollOffset}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link to="about" smooth={true} duration={500} offset={scrollOffset}>
+            About
+          </Link>
         </li>
         <li>
-          <a href="#skills">Skills</a>
+          <Link to="skills" smooth={true} duration={500} offset={scrollOffset}>
+            Skills
+          </Link>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <Link
+            to="projects"
+            smooth={true}
+            duration={500}
+            offset={scrollOffset}
+          >
+            Projects
+          </Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
         </li>
       </ul>
       {/* Hamburger Menu Icon */}

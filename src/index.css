@@ -9,5 +9,10 @@
 @layer base {
     body {
         @apply font-raleway;
+        @apply scroll-smooth;
+    }
+    li {
+        @apply cursor-pointer;
+        @apply hover:text-mainGoldColor;
     }
 }
