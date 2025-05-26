@@ -11,7 +11,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="w-full pt-[10vh] bg-mainLightGray">
+      <main
+        id="scroll-container"
+        className="w-full pt-[10vh] bg-mainLightGray h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth"
+      >
         <Home />
         <About />
         <Skills />
