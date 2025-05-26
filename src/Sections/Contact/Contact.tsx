@@ -4,7 +4,10 @@ type Props = {};
 
 const Contact = (props: Props) => {
   return (
-    <section className="bg-mainLightGray min-h-[90vh] w-full text-gray-300 flex justify-center items-center pt-28 lg:pt-0">
+    <section
+      id="contact"
+      className="bg-mainLightGray min-h-[90vh] w-full text-gray-300 flex justify-center items-center pt-28 lg:pt-0"
+    >
       <div className=" max-w-2xl mx-auto flex flex-col w-full gap-9 p-4 pb-0">
         <div className="flex flex-col gap-3">
           <h1 className="border-b-4 border-mainGoldColor w-fit text-2xl md:text-4xl font-bold">
