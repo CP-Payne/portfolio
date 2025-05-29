@@ -11,7 +11,7 @@ interface Props {
 const ProjectCard = ({ title, description, image, stack, link }: Props) => {
   return (
     <a
-      className="bg-mainLightGray w-80 /*h-[30rem]*/ mx-auto rounded-md shadow-lg shadow-[#040c16] hover:scale-110 duration-500 hover:bg-mainDarkGray hover:shadow-lightGoldColor group flex flex-col"
+      className="bg-mainLightGray w-80 mx-auto rounded-md shadow-lg shadow-[#040c16] hover:scale-110 duration-500 hover:bg-mainDarkGray hover:shadow-lightGoldColor group flex flex-col"
       href={link}
       target="_blank"
       rel="noopener noreferrer"
@@ -24,7 +24,7 @@ const ProjectCard = ({ title, description, image, stack, link }: Props) => {
         />
       </div>
 
-      <div className="px-4 pt-3 flex flex-col /*h-[40%]*/ flex-grow">
+      <div className="px-4 pt-3 flex flex-col flex-grow">
         <h2 className="text-lg font-bold text-white">{title}</h2>
         <p className="text-gray-300 mt-1 mb-3">{description}</p>
         <div className="flex flex-wrap gap-2 text-white mt-auto pb-4 pt-2">
