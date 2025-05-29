@@ -31,6 +31,9 @@ const Navbar = (props: Props) => {
           <a href="#projects">Projects</a>
         </li>
         <li>
+          <a href="#other-projects">More Projects</a>
+        </li>
+        <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
@@ -57,6 +60,9 @@ const Navbar = (props: Props) => {
         </li>
         <li onClick={handleClick} className="py-6 text-4xl">
           <a href="#projects">Projects</a>
+        </li>
+        <li onClick={handleClick} className="py-6 text-4xl">
+          <a href="#other-projects">More Projects</a>
         </li>
         <li onClick={handleClick} className="py-6 text-4xl">
           <a href="#contact">Contact</a>
