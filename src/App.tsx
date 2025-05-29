@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import About from "./Sections/About/About";
 import Contact from "./Sections/Contact/Contact";
 import Home from "./Sections/Home/Home";
+import OtherProjects from "./Sections/OtherProjects/OtherProjects";
 import Projects from "./Sections/Projects/Projects";
 import Skills from "./Sections/Skills/Skills";
 import SocialsDesktop from "./Sections/Socials/SocialsDesktop";
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <OtherProjects />
         <Contact />
         <SocialsDesktop />
         <SocialsMobile />
