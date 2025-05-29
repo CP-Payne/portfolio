@@ -15,11 +15,11 @@ const projectList = [
     link: "https://github.com/CP-Payne/social",
   },
   {
-    title: "Third Project",
-    description: "some project description describing the project in a few sentences",
-    image: "dummy.png",
-    stack: ["HTML", "CSS", "JavaScript"],
-    link: "https://picsum.photos/id/1/200",
+    title: "StockTech",
+    description: "Provides users with tools for informed investment decisions by providing real-time stock data, portfolio tracking, and a platform for community insights.",
+    image: "homepage-image.png",
+    stack: ["C#", "ASP.NET Core", "React", "TypeScript", "Tailwindcss"],
+    link: "https://github.com/CP-Payne/StockTech",
   },
 
 ]
