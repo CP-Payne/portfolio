@@ -1,9 +1,8 @@
 import React from "react";
 import portpic from "./meportpic.jpeg";
 
-type Props = {};
 
-const About = (props: Props) => {
+const About = () => {
   return (
     <section
       id="about"
@@ -22,10 +21,10 @@ const About = (props: Props) => {
           Hi. I'm Charles, nice to meet you. Please take a look around.
         </p>
         <p className="text-center mt-7">
-          I am a software engineer with a solid foundation in cybersecurity and
+          I'm a software engineer with a solid foundation in cybersecurity and
           a passion for backend development. I love creating robust APIs and
-          backend solutions, primarly in Go and ASP.NET Core. I hold a bachelor
-          of computing degree from Belgium Campus ITversity and am constantly
+          backend solutions, primarily in Go and ASP.NET Core. I hold a Bachelor
+          of Computing degree from Belgium Campus ITversity and am constantly
           pursuing new skills and knowledge.
         </p>
       </div>

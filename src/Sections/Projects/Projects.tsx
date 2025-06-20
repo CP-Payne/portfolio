@@ -2,13 +2,12 @@ import React from "react";
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 import projectList from "../../data/projects";
 
-type Props = {};
 
 const getImage = (fileName: string) => {
   return new URL(`../../assets/Projects/${fileName}`, import.meta.url).href;
 };
 
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <section
       id="projects"
