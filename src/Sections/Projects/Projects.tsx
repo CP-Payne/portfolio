@@ -38,6 +38,10 @@ const Projects = (props: Props) => {
             />
           ))}
         </div>
+        <div className="hidden lg:inline text-center text-gray-400 mt-3 animate-bounce">
+         <p className="text-lg">Other notable projects</p>
+         <p className="text-2xl">↓</p>
+       </div>
       </div>
     </section>
   );

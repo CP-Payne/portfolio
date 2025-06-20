@@ -24,7 +24,7 @@ const BackendProjectCard: React.FC<Props> = ({
         <h3 className="text-xl font-bold text-white mb-2 group-hover:text-mainGoldColor transition-colors">
           {title}
         </h3>
-        <p className="text-gray-300 text-sm mb-4 line-clamp-4 sm:line-clamp-5">
+        <p className="text-gray-300 text-sm mb-4">
           {description}
         </p>
       </div>

@@ -1,21 +1,21 @@
 const backendProjectList = [
     {
-    title: "Ecommerce API",
-    description: "some project description describing the project in a few sentences",
-    stack: ["Golang", "PostgreSQL", "PayPal Api"],
-    link: "https://github.com/CP-Payne/go-ecommerce-store-api"
+    title: "TaskFlow",
+    description: "Taskflow is a microservices-based backend project featuring secure authentication, event-driven notifications, and service discovery.",
+    stack: ["Golang", "gRPC", "Vault", "Redis", "Consul"],
+    link: "https://github.com/CP-Payne/taskflow"
     },
      {
     title: "Social API",
-    description: "some project description describing the project in a few sentences",
-    stack: ["Golang", "PostgreSQL", "MailTrap"],
+    description: "A backend service for managing blog posts, user accounts, comments, and follows. It includes JWT auth, email verification, Redis caching, and role-based access, built with clean architecture.",
+    stack: ["Golang", "PostgreSQL","Redis","JWT","Swagger", "MailTrap"],
     link: "https://github.com/CP-Payne/social",
   },
   {
-    title: "StockTech",
-    description: "Provides users with tools for informed investment decisions by providing real-time stock data, portfolio tracking, and a platform for community insights.",
-    stack: ["C#", "ASP.NET Core", "React", "TypeScript", "Tailwindcss"],
-    link: "https://github.com/CP-Payne/StockTech",
+    title: "Ecommerce Store API",
+    description: "A backend service for managing an online store, featuring user authentication, shopping cart functionality, product listings, reviews, and PayPal payment integration.",
+    stack: ["Golang", "PostgreSQL","PayPal","JWT"],
+    link: "https://github.com/CP-Payne/go-ecommerce-store-api",
   },
 
 ]
