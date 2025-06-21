@@ -1,10 +1,7 @@
-import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link, Element } from "react-scroll";
 
-type Props = {};
 
-const Home = (props: Props) => {
+const Home = () => {
   return (
     // Note: the min-h-[90vh] (the min) results the the child div no longer having the full height of the section.
     // As such, the items can no longer be justified to the center in the containing div.

@@ -1,4 +1,3 @@
-import React from "react";
 import backendProjectList from "../../data/backendProjects";
 import BackendProjectCard from "../../Components/BackendProjectCard/BackendProjectCard";
 

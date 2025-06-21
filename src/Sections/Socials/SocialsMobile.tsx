@@ -1,12 +1,10 @@
-import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import socials from "../../data/socials";
 
-type Props = {};
 
-const SocialsMobile = (props: Props) => {
+const SocialsMobile = () => {
   return (
     <section className=" min-h-[15vh] w-full  bg-mainLightGray flex justify-center items-center overflow-hidden lg:hidden">
       <div className=" max-w-2xl w-full h-full flex justify-evenly items-center p-3 font-bold">

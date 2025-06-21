@@ -1,13 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "./initials_logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
 
-type Props = {};
 
-const scrollOffset = -60;
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (

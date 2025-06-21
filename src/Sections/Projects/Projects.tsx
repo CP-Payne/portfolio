@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCard from "../../Components/ProjectCard/ProjectCard";
 import projectList from "../../data/projects";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import portpic from "./comfyvers.png";
 
 
