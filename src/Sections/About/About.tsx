@@ -1,4 +1,4 @@
-import portpic from "./comfyvers.png";
+import portpic from "./me-orig-crop.png";
 
 
 const About = () => {
