@@ -14,7 +14,7 @@ const About = () => {
         <img
           src={portpic}
           alt="profile picture"
-          className="aspect-square w-32 md:w-44 rounded-full border-4 shadow-md border-lightGoldColor shadow-mainGoldColor h-auto my-6 md:mt-12 md:mb-8"
+          className="w-32 h-32 md:w-44 md:h-44 object-cover rounded-full border-4 shadow-md border-lightGoldColor shadow-mainGoldColor my-6 md:mt-12 md:mb-8"
         />
         <p className="text-2xl md:text-4xl font-bold text-center">
           Hi. I'm Charles, nice to meet you. Please take a look around.
