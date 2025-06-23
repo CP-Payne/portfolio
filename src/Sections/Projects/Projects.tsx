@@ -36,10 +36,10 @@ const Projects = () => {
             />
           ))}
         </div>
-        <div className="hidden lg:inline text-center text-gray-400 mt-3 animate-bounce">
+        <a className="hidden lg:inline text-center text-gray-400 mt-3 animate-bounce" href="#other-projects">
          <p className="text-lg">Other notable projects</p>
          <p className="text-2xl">↓</p>
-       </div>
+       </a>
       </div>
     </section>
   );
