@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <main
         id="scroll-container"
-        className="w-full pt-[10vh] bg-mainLightGray h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth"
+        className="w-full pt-[10vh] bg-mainLightGray h-screen overflow-y-scroll snap-y snap-mandatory"
       >
         <Home />
         <About />
