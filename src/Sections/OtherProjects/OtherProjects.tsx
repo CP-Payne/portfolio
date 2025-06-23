@@ -24,8 +24,8 @@ const OtherProjects = () => {
           ))}
         </div>
         <div className="mt-12 mb-6 md:mt-16">
-          <p className="text-lg text-gray-300">
-            <span className="text-gray-500">//</span> View more projects and
+          <p className="text-lg text-gray-400 italic">
+            <span className="text-gray-500"></span> View more projects and
             code on my{" "}
             <a
               href="https://github.com/CP-Payne"

@@ -19,8 +19,8 @@ const Projects = () => {
         <div className="text-left mt-5">
           {" "}
           {/* text-left for small, center for medium up; or just text-center */}
-          <p className="text-md text-gray-400">
-            <span className="text-gray-500">//</span> Each project card links
+          <p className="text-md text-gray-400 italic">
+            <span className="text-gray-500"></span> Each project card links
             directly to its GitHub repository. Click to explore the code!
           </p>
         </div>

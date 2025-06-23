@@ -11,8 +11,8 @@ const Contact = () => {
           <h1 className="border-b-4 border-mainGoldColor w-fit text-2xl md:text-4xl font-bold">
             Contact Me
           </h1>
-          <p className="text-gray-300">
-            // Feel free to submit the form below or shoot me an email -{" "}
+          <p className="text-gray-300 italic">
+            Feel free to submit the form below or shoot me an email -{" "}
             <span className="font-bold">charlpayne1@gmail.com</span>
           </p>
         </div>
